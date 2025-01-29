@@ -12,7 +12,6 @@ function generateMnemonic() {
   console.log("Generated mnemonic:", mnemonic);
   return mnemonic;
 }
-generateMnemonic();
 
 // Derive seed from mnemonic
 function getSeedFromMnemonic(mnemonic) {
@@ -20,7 +19,6 @@ function getSeedFromMnemonic(mnemonic) {
   console.log("Derived seed:", seed.toString("hex"));
   return seed;
 }
-getSeedFromMnemonic();
 
 // Create a root node from the seed
 function getRootNodeFromSeed(seed) {
