@@ -1,3 +1,4 @@
+// Dev - Moore
 // Import bip39 and bip32
 import * as bip39 from "bip39";
 import * as ecc from "tiny-secp256k1";
